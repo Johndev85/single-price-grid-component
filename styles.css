@@ -43,7 +43,6 @@ div.join p {
     display: flex;
     justify-content: space-evenly;
     margin: 0px 300px 0px;
-
 }
 
 .container div {
@@ -125,4 +124,45 @@ button:hover {
 .why-us h2 {
     font-weight: 700;
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 390px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+    }
+
+    .join {
+        margin: 50px 0px 0px;
+        width: 250px;
+        padding: 0px 20px 0px;
+    }
+
+    .container {
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    .container div {
+        width: 250px;
+        padding: 0px 20px 0px;
+    }
+
+    .subscription {
+        height: 230px;
+    }
+
+    button {
+        margin-right: 35px;
+    }
+
+    .why-us {
+       padding: 0px 22px 0px 20px;
+       margin-bottom: 40px;
+    }
+
 }
