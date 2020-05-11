@@ -96,12 +96,24 @@ h2 {
 }
 
 button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
     display: flex;
     justify-content: center;
     width: 230px;
+    padding: 10px 0px;
+    font-size: 1em;
+    font-weight: 700;
     border-radius: 5px;
-    background-color: hsl(71, 73%, 54%);
-    color: hsl(204, 43%, 93%);
+    box-shadow: 0px 7px 20px 0px grey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(218, 22%, 67%);
+    color: hsl(71, 73%, 54%);
+    box-shadow: 0px 7px 20px 0px hsl(71, 73%, 54%);
+
 }
 
 .why-us {
