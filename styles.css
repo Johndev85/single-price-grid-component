@@ -1,4 +1,57 @@
+/* * {
+    margin: 0px;
+}
+ */
 body {
     width: 1440px;
     font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.join {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 300px 0px;
+    padding-left: 40px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+div.join p {
+    color: hsl(218, 22%, 67%);
+}
+
+div.join h1, h3 {
+    margin-bottom: 0px;
+}
+
+div.join p {
+    margin-top: 15px;
+}
+
+section {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 300px 0px;
+    padding-left: 40px;
+
+}
+
+.subscription {
+    border: 1px solid red;
+
+}
+
+.why-us {
+    border: 1px solid red;
 }
