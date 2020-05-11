@@ -1,7 +1,4 @@
-/* * {
-    margin: 0px;
-}
- */
+
 body {
     width: 1440px;
     font-family: 'Karla', sans-serif;
@@ -55,7 +52,8 @@ h2 {
 }
 
 .subscription {
-    width: 375px;
+    width: 380px;
+    height: 250px;
     display: inherit;
     flex-direction: column;
     background-color: hsl(179, 62%, 43%);
@@ -126,6 +124,13 @@ button:hover {
     margin-top: 30px;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+
 @media only screen and (max-width: 390px) {
 
     body {
@@ -136,7 +141,7 @@ button:hover {
 
     .join {
         margin: 50px 0px 0px;
-        width: 250px;
+        width: 320px;
         padding: 0px 20px 0px;
     }
 
@@ -148,7 +153,7 @@ button:hover {
     }
 
     .container div {
-        width: 250px;
+       width: 320px;
         padding: 0px 20px 0px;
     }
 
@@ -162,7 +167,13 @@ button:hover {
 
     .why-us {
        padding: 0px 22px 0px 20px;
-       margin-bottom: 40px;
+       margin-bottom: 20px;
+    }
+
+    .attribution {
+        font-size: 11px;
+        margin: 5%;
+        color: hsl(228, 45%, 44%);
     }
 
 }
